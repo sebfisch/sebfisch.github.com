@@ -20,6 +20,7 @@ body {
 .sidebar {
     float: right;
     margin-left: 1em;
+    width: 200px;
 }
 
 h1, h2, h3 { font-family: Palatino, serif; }
