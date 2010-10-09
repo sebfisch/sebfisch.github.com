@@ -1,0 +1,49 @@
+body {
+    font-family: Optima, sans-serif;
+    margin-left: 15%; margin-right: 15%;
+    background-color: white;
+    text-align: justify;
+}
+
+.nav {
+    list-style-type: none;
+    background-color: beige;
+    padding: 0.5em;
+    margin-left: 0em;
+}
+
+.nav .current a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sidebar {
+    float: right;
+    margin-left: 1em;
+}
+
+h1, h2, h3 { font-family: Palatino, serif; }
+
+h1 {
+    font-size: 40pt;
+    color: beige;
+}
+
+h2, h3 { color: midnightblue; }
+
+h2 { font-size: 20pt; }
+h3 { font-size: 12pt; }
+
+h2 a { text-decoration: none; }
+
+a { color: midnightblue }
+
+p {
+    font-size: 12pt;
+    line-height: 1.5em;
+}
+
+td {
+    vertical-align: top;
+    padding-right: 1em;
+}
