@@ -23,6 +23,10 @@ body {
     width: 220px;
 }
 
+#twtr-widget-1 .twtr-bd p {
+    font-size: 0.9em;
+}
+
 h1, h2, h3 { font-family: Palatino, serif; }
 
 h1 {
