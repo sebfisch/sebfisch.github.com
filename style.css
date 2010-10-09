@@ -47,3 +47,7 @@ td {
     vertical-align: top;
     padding-right: 1em;
 }
+
+blockquote {
+    font-style: italic;
+}
