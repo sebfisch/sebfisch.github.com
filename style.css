@@ -1,5 +1,5 @@
 body {
-    font-family: Optima, sans-serif;
+    font-family: Gill sans, sans-serif;
     font-size: 13pt;
     margin-left: 15%; margin-right: 15%;
     background-color: white;
@@ -16,6 +16,7 @@ body {
 .nav .current a {
     font-weight: bold;
     text-decoration: none;
+    border: none;
 }
 
 .sidebar {
@@ -28,19 +29,32 @@ body {
     font-size: 0.9em;
 }
 
+#twtr-widget-1 a {
+    border: none;
+}
+
 h1 {
+    font-family: Baskerville, serif;
     font-size: 40pt;
     color: beige;
 }
 
-h2, h3 { color: midnightblue; }
+h2, h3 { color: steelblue; }
 
 h2 { font-size: 20pt; }
 h3 { font-size: 15pt; }
 
-h2 a { text-decoration: none; }
+h2 a {
+    color: steelblue;
+    text-decoration: none;
+    border: none;
+}
 
-a { color: midnightblue }
+a {
+    color: midnightblue;
+    text-decoration: none;
+    border-bottom: thin dotted;
+}
 
 p {
     line-height: 1.5em;
@@ -61,11 +75,6 @@ table {
 }
 
 th {
-    font-family: Palatino, serif;
+    font-family: Baskerville, serif;
     font-weight: normal;
-    // border: thin solid;
-}
-
-td {
-    // border: thin solid;
 }
