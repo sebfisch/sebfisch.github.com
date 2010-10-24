@@ -27,8 +27,6 @@ body {
     font-size: 0.9em;
 }
 
-h1, h2, h3 { font-family: Palatino, serif; }
-
 h1 {
     font-size: 40pt;
     color: beige;
@@ -55,4 +53,19 @@ td {
 
 blockquote {
     font-style: italic;
+}
+
+table {
+    margin: auto;
+    font-size: 17pt;
+}
+
+th {
+    font-family: Palatino, serif;
+    font-weight: normal;
+    // border: thin solid;
+}
+
+td {
+    // border: thin solid;
 }
