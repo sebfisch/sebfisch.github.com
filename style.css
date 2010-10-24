@@ -1,5 +1,6 @@
 body {
     font-family: Optima, sans-serif;
+    font-size: 13pt;
     margin-left: 15%; margin-right: 15%;
     background-color: white;
     text-align: justify;
@@ -35,14 +36,13 @@ h1 {
 h2, h3 { color: midnightblue; }
 
 h2 { font-size: 20pt; }
-h3 { font-size: 12pt; }
+h3 { font-size: 15pt; }
 
 h2 a { text-decoration: none; }
 
 a { color: midnightblue }
 
 p {
-    font-size: 12pt;
     line-height: 1.5em;
 }
 
