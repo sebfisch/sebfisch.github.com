@@ -8,65 +8,7 @@
 </head>
 <body>
 
-<div class="sidebar">
-
-<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 2,
-  interval: 6000,
-  width: 'auto',
-  height: 300,
-  theme: {
-    shell: {
-      background: '#f5f5dc',
-      color: '#191970'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#000000',
-      links: '#191970'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: false,
-    live: false,
-    hashtags: true,
-    timestamp: true,
-    avatars: false,
-    behavior: 'all'
-  }
-}).render().setUser('sebfisch').start();
-</script>
-
-<ul class="nav"
-><li
-  ><a href="index.html"
-    >sebfisch's blog</a
-    ></li
-  ><li
-  ><a href="strandausflug.html"
-    >Strandausflug</a
-    ></li
-  ><li
-  ><a href="learning-hiragana.html"
-    >Learning Hiragana</a
-    ></li
-  ><li class="current"
-  ><a href="mein-neues-zuhause.html"
-    >Mein neues Zuhause</a
-    ></li
-  ><li
-  ><a href="back-from-baltimore.html"
-    >Back from Baltimore</a
-    ></li
-  ></ul
->
-
-</div>
+<h1><a href="index.html">sebfisch</a></h1>
 
 <div id="mein-neues-zuhause"
 ><h2
@@ -105,6 +47,70 @@ new TWTR.Widget({
   >Um eins von diesen HighTech Klos zubekommen muss ich also umziehen. Das hat aber noch Zeit. Meine Wohnung ist kein Zwischenstopp.</p
   ></div
 >
+
+<div class="footer">
+
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 7,
+  interval: 6000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: 'ivory',
+      color: 'black'
+    },
+    tweets: {
+      background: 'ivory',
+      color: 'black',
+      links: 'darkorange'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('sebfisch').start();
+</script>
+
+<!-- <ul class="nav"
+><li
+  ><a href="index.html"
+    >sebfisch</a
+    ></li
+  ><li
+  ><a href="hatsuhinode.html"
+    >Hatsuhinode</a
+    ></li
+  ><li
+  ><a href="strandausflug.html"
+    >Strandausflug</a
+    ></li
+  ><li
+  ><a href="learning-hiragana.html"
+    >Learning Hiragana</a
+    ></li
+  ><li class="current"
+  ><a href="mein-neues-zuhause.html"
+    >Mein neues Zuhause</a
+    ></li
+  ><li
+  ><a href="back-from-baltimore.html"
+    >Back from Baltimore</a
+    ></li
+  ></ul
+> #-->
+
+</div>
 
 </body>
 </html>
