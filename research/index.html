@@ -109,7 +109,45 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+
 	> in Odense, Denmark</p
       ></li
     ></ul
-  ><a name="publications"></a></div
+  ><a name="talks"></a></div
+><div id="talks"
+><h2
+  >Talks</h2
+  ><div id="generate-test-and-aggregate-an-algebraic-method-for-developing-divide-and-conquer-algorithms"
+  ><h3
+    >Generate, Test, and Aggregate: An Algebraic Method for Developing Divide-and-Conquer Algorithms</h3
+    ><p
+    >presented at National Institute of Informatics in Tokyo, Japan (March 2012) [<a href="http://sebfisch.githib.com/research/talks/Tokyo.pdf"
+      >slides</a
+      >]</p
+    ><p
+    >Divide-and-Conquer is an important algorithm design paradigm where a problem is divided into sub-problems that can be conquered individually. Recent opportunities to parallelize computations draw new interest to this paradigm as individual sub-problems can be solved in parallel. For example, the MapReduce framework allows to distribute massively parallel computations based on associative combining operations that leave the necessary freedom to be executed in parallel.</p
+    ><p
+    >Unfortunately, associative combining operations are often non-trivial and there is little support helping programmers to define them. I will present a method that facilitates the implementation of parallel algorithms in divide-and-conquer style by helping programmers to define complex associative combining operations based on more intuitive specifications in generate-test-and-aggregate style. The method has firm algebraic roots and functional programming will be helpful in explaining it based on program calculation.</p
+    ></div
+  ><div id="lazy-functional-logic-programming-and-encapsulated-search"
+  ><h3
+    >Lazy Functional Logic Programming and Encapsulated Search</h3
+    ><p
+    >presented at University of Tsukuba, Japan (March 2012) [<a href="http://sebfisch.githib.com/research/talks/Tsukuba.pdf"
+      >slides</a
+      >]</p
+    ><p
+    >Functional Logic Programming (FLP) combines features from functional programming such as first-class functions and algebraic datatypes with features from logic programming such as unbound logic variables and nondeterministic search. I will introduce lazy (call-by-need) FLP using the Curry language and review different ways to encapsulate search, that is, to access different results of nondeterministic computations deterministically. The interaction of laziness and encapsulated search is an old problem with some new solutions in the FLP community. By talking about both the problem and some existing solutions, I hope to motivate discussion on the topic from the perspective of control operators in the presence of call-by-need.</p
+    ></div
+  ><div id="a-haskell-edsl-for-parallel-programming-in-generate-test-and-aggregate-style"
+  ><h3
+    >A Haskell EDSL for (Parallel) Programming in Generate-Test-and-Aggregate Style</h3
+    ><p
+    >presented at Chalmers University of Technology in Gothenburg, Sweden (November 2011) [<a href="http://sebfisch.githib.com/research/talks/Chalmers.pdf"
+      >slides</a
+      >]</p
+    ><p
+    >MapReduce is a popular and successful framework to implement massively parallel algorithms. It can be used to distribute the execution of data intensive tasks and hide implementation details of parallelization and data distribution. However, it is often difficult to define MapReduce programs because realistic problems do not match its simple divide and conquer form. Although many case studies are being published that show non-trivial applications of MapReduce, no generalized theory has been developed that captures underlying common ideas.</p
+    ><p
+    >I will present a framework for systematic parallel programming with MapReduce that generalizes existing implementation ideas for parallel algorithms and is applicable to a wide class of search problems. Parallel algorithms can be specified as generate-and-test problems combined with result aggregation and we provide two theorems that allow to implement such specifications efficiently using MapReduce. Our approach brings MapReduce programming, which is inspired by the map and reduce primitives available in many functional languages, back to its roots by providing a calculation-based framework for program development. It makes expert knowledge applicable for a broader group of programmers by automatically bridging the gap between intuitive specifications and efficient implementations.</p
+    ><a name="publications"></a></div
+  ></div
 ><div id="publications"
 ><h2
   >Publications</h2
