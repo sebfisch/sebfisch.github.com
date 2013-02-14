@@ -2,13 +2,37 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     font-family: Gill sans, sans-serif;
-    background-color: ivory;
+    background-color: #fdf6e3;
+    color: #657b83;
 }
 
 h1, h2, th, a {
     font-family: Baskerville, serif;
-    color: steelblue;
     font-weight: bold;
+}
+
+h1 {
+    color: #2aa198;
+}
+
+h2 {
+    color: #268bd2;
+}
+
+h3 {
+    color: #6c71c4;
+}
+
+th {
+    color: #d33682;
+}
+
+a {
+    color: #dc322f;
+}
+
+a:visited {
+    color: #b58900;
 }
 
 h1 {
